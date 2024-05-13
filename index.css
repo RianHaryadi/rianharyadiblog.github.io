@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--bg-gray);
+}
+
+section{
+    padding: 5rem 0;
+}
+
+.nav-link {
+    font-family: var(--primary-font);
+    font-size: 0.9375rem;
+    font-weight: 500px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+}
+
+a .nav-link{
+    color: black;
+}
+.nav-link :hover{
+    color: var(--bg-black);
+}
+
+.banner_wrapper .banner_content{
+    vertical-align: middle;
+    align-self: center;
+}
+
+.banner_wrapper .banner_content h2::after{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    overflow-x: hidden;
+}
+
+.img-fluid{
+    border-radius: 60px;
+    width: 355px;
+    height: 433px;
+}
+
+ul {
+    list-style: none;
+  }
+.Projek .card {
+    border-radius: 20px;
+  }
+
+  .footerContainer .sosialIcon{
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+  }
+
+  .footerContainer .sosialIcon a{
+    font-size: 50px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 100px;
+  }
+  /* .footerNavbar{
+    display: inline-block;
+  }
+
+  .footerNavbar h1{
+    text-align: left;
+    margin: 0 120px;
+  }
+
+  .footerNavbar P{
+    text-align: left;
+    margin: 0 120px;
+  } */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .footer.col{
+    width: 25px;
+  }
