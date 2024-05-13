@@ -87,3 +87,14 @@ a .nav-link{
     max-width: 500px;
     float: right;
 }
+
+.Text-c p{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Text-c a{
+    color: black;
+    text-align: center;
+}
